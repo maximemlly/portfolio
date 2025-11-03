@@ -4,32 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mes projets - Maxime Maillary</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Mes projets</h1>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="projects.html">Projets</a>
+        <a href="contact.html">Contact</a>
+    </nav>
 
-    <h2>Projets C</h2>
-    <p>Durant nos cours de programmation bas niveau en C, nous avons été amenés à créer trois projets affin de tester nos connaissances du langage C.</p>
+    <main>
+        <h1>Mes projets</h1>
 
-    <h3>Projet Numéro Magique</h3>
-    <p>Notre premier projet était celui de créer un programme dit "Numéro Magique"
-        <br>Le numéro magique consiste à déviner un nombre aléatoirement choisi par le programme. Ce dernier ne peut nous aider qu'en nous disant si le nombre est plus grand ou plus petit que notre essai.
-    </p>
-    <a href="https://github.com/maximemlly/project_numero_magique" alt="Lien vers le projet numéro magique sur GitHub"><button>Voir le projet sur GitHub</button></a>
+        <section class="projets_c">
+            <h2>Projets C</h2>
+            <p>Durant nos cours de programmation bas niveau en C, nous avons été amenés à créer trois projets affin de tester nos connaissances du langage C.</p>
 
-    <h3>Projet Morpion (Tic Tac Toe)</h3>
-    <p>Notre deuxième projet était de créer un morpion entièrement jouable dans le terminal.
-        <br>Le jeu du morpion consite à aligner trois croix ou cercles horizontalement, verticalement ou en diagonale dans une grille de 3 par 3 cases contre un ordinateur.
-    </p>
-    <a href="https://github.com/maximemlly/project_tic_tac_toe" alt="Lien vers le projet tic tac toe sur GitHub"><button>Voir le projet sur GitHub</button></a>
+            <div class="projet_1">
+                <h3>Projet Numéro Magique</h3>
+                <p>Notre premier projet était celui de créer un programme dit "Numéro Magique"
+                    <br>Le numéro magique consiste à déviner un nombre aléatoirement choisi par le programme. Ce dernier ne peut nous aider qu'en nous disant si le nombre est plus grand ou plus petit que notre essai.
+                </p>
+                <img src="img/numero_magique.gif" width="500" alt="GIF du projet numero magique"><br>
+                <a href="https://github.com/maximemlly/project_numero_magique" alt="Lien vers le projet numéro magique sur GitHub" target="_blank"><button>Voir le projet sur GitHub</button></a>
+            </div>
 
-    <h3>Projet Sokoban</h3>
-    <p>Notre troisième projet était de recréer le jeu Sokoban jouable dans le terminal.
-        <br>Sokoban est un jeu d’énigme où le joueur doit pousser stratégiquement des boîtes sur des emplacements cibles désignés dans un labyrinthe d’entrepôt contraint.
-    </p>
-    <a href="https://github.com/maximemlly/sokoban" alt="Lien vers le projet sokoban sur GitHub"><button>Voir le projet sur GitHub</button></a>
+            <div class="projet_2">
+                <h3>Projet Morpion (Tic Tac Toe)</h3>
+                <p>Notre deuxième projet était de créer un morpion entièrement jouable dans le terminal.
+                    <br>Le jeu du morpion consite à aligner trois croix ou cercles horizontalement, verticalement ou en diagonale dans une grille de 3 par 3 cases contre un ordinateur.
+                </p>
+                <img src="img/tic_tac_toe.gif" width="500" alt="GIF du projet tic tac toe"><br>
+                <a href="https://github.com/maximemlly/project_tic_tac_toe" alt="Lien vers le projet tic tac toe sur GitHub" target="_blank"><button>Voir le projet sur GitHub</button></a>
+            </div>
 
-    <br><br><br><a href="index.html">Retourner à l'accueil</a>
-    <a href="contact.html">Formulaire de contact</a>
+            <div class="projet_3">
+                <h3>Projet Sokoban</h3>
+                <p>Notre troisième projet était de recréer le jeu Sokoban jouable dans le terminal.
+                    <br>Sokoban est un jeu d’énigme où le joueur doit pousser stratégiquement des boîtes sur des emplacements cibles désignés dans un labyrinthe d’entrepôt contraint.
+                </p>
+                <img src="img/sokoban.gif" width="500" alt="GIF du projet sokoban"><br>
+                <a href="https://github.com/maximemlly/sokoban" alt="Lien vers le projet sokoban sur GitHub" target="_blank"><button>Voir le projet sur GitHub</button></a>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
