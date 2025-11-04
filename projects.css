@@ -64,93 +64,96 @@ nav > .liens div > a:visited, nav > .liens div > a {
     height: 30px;
 }
 
-
 /* Page principale */
 
 main {
-    height: 500px;
+    height: 100%;
     margin: 10px;
-    display: flex;
     background-color: rgb(228, 228, 228);
     border-radius: 20px;
 }
 
-main > img {
+h1 {
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.projets_c {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 20px;
+}
+
+.projets {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.projet_1 {
+    display: flex;
+}
+
+.projet_1 > img {
+    border-radius: 0px 20px 20px 0px;
+}
+
+.projet_1 > .text {
+    padding: 20px;
+    background-color: rgb(255, 168, 159);
     border-radius: 20px 0px 0px 20px;
 }
 
-h1 {
-    font-family: sans-serif;
-    font-size: 50px;
-}
-
-.presentation {
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
-.presentation2 {
-    margin: 20px;
+.projet_2 {
     display: flex;
-    gap : 50px
 }
 
-.presentation2 h2 {
-    margin: 10px;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 500;
-    font-size: 30px;   
+.projet_2 > img {
+    border-radius: 0px 20px 20px 0px;
 }
 
-.aboutMe {
-    width: 50%;
-    padding-left : 10px;
-    padding-right: 10px;
-    background-color: rgb(209, 209, 209);
-    border-radius: 20px;
+.projet_2 > .text {
+    padding: 20px;
+    background-color: rgb(255, 168, 159);
+    border-radius: 20px 0px 0px 20px;
 }
 
-.aboutMe > p {
-    padding-right: 10px;
-    padding-left: 10px;
-    text-align: left;
-}
-
-.competences {
-    width: 50%;
-    padding-left : 10px;
-    padding-right: 10px;
-    background-color: rgb(209, 209, 209);
-    border-radius: 20px;
-}
-
-.languages {
-    justify-content: center;
+.projet_3 {
     display: flex;
-    margin: 10px;
-    gap: 50px;
 }
 
-.lang {
-    width: 100px;
-    height: 200px;
-    padding: 10px;
-    align-items: center;
+.projet_3 > img {
+    border-radius: 0px 20px 20px 0px;
+}
+
+.projet_3 > .text {
+    padding: 20px;
+    background-color: rgb(255, 168, 159);
+    border-radius: 20px 0px 0px 20px;
+
+}
+
+
+main button {
+    width: 200px;
+    height: 50px;
+    background-color: salmon;
     font-weight: 600;
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    text-align: center;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0px;
 }
 
-.html {
-    background-color: rgb(255, 132, 101);
-}
-
-.cpp {
-    background-color: rgb(119, 143, 191);
-}
-
-.python {
-    background-color: rgb(255, 235, 108);
+main button:hover {
+    background-color: white;
+    font-weight: 600;
+    color: salmon;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0px;   
 }

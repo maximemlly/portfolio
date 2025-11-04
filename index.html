@@ -5,37 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil - Maxime Maillary</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
-        <a href="index.html">Accueil</a>
-        <a href="projects.html">Projets</a>
-        <a href="contact.html">Contact</a>
+        <p>Portfolio de Maxime Maillary</p>
+
+        <div class="liens">
+            <div class="accueil">
+                <a href="index.html">Accueil</a>
+            </div>
+            <div class ="projets">
+                <a href="projects.html">Projets</a>
+            </div>
+            <div class="contact">
+            <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="social">
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/maxime-maillary/" target="_blank"><img src="img/linkedin.png" width="30" height="30"></a>
+            </div>
+            <div class="github">
+                <a href="https://www.github.com/maximemlly" target="_blank"><img src="img/github.png" width="30" height="30"></a>
+            </div>
+        </div>
     </nav>
 
     <main>
+
+        <img src="img/photo.jpg" alt="Photo de moi" height="500">
+  
         <section class="presentation">
-            <img src="img/photo.jpg" alt="Photo de moi" height="300">
             <h1>Maxime Maillary, Etudiant en Bachelor Développeur Fullstack</h1>
-        </section>
+            <div class="presentation2">
+                <div class="aboutMe">
+                    <h2>À propos de moi</h2>
 
-        <section class="aboutMe">
-            <h2>Qui suis-je ?</h2>
+                    <p>Je m'appelle Maxime Maillary, j'ai 18 ans et je suis étudiant à l'École Coda à Orléans.
+                        <br>Je suis actuellement en première année de Bachelor Développeur Fullstack.
+                        <br>Depuis l'âge de 12 ans j'ai touché à plus ou moins tout ce qui était à ma porté en terme de programmation : HTML/CSS, JavaScript, Python, C++ et même Java.
+                        <br>Aujourd'hui je cherche à faire de cette passion mon métier et batir ma carrière dans le développement informatique, même si j'hésite encore à me spécialiser en IA ou en Cybersecurité.
+                    </p>
+                </div>
 
-            <p>Je m'appelle Maxime Maillary, j'ai 18 ans et je suis étudiant à l'École Coda à Orléans.
-                <br>Je suis actuellement en première année de Bachelor Développeur Fullstack.
-                <br>Depuis l'âge de 12 ans j'ai touché à plus ou moins tout ce qui était à ma porté en terme de programmation : HTML/CSS, JavaScript, Python, C++ et même Java.
-                <br>Aujourd'hui je cherche à faire de cette passion mon métier et batir ma carrière dans le développement informatique, même si j'hésite encore à me spécialiser en IA ou en Cybersecurité.
-            </p>
-        </section>
-
-        <section class="competences">
-            <h2>Mes compétences</h2>
-            <ul>
-                <li>Débutant HTML/CSS et JavaScript</li>
-                <li>Débutant C/C++</li>
-                <li>Débutant Python</li>
-            </ul>
+                <div class="competences">
+                    <h2>Mes compétences</h2>
+                    <div class="languages">
+                        <div class="lang html">
+                            <img src="img/html.png" width="100"><p>Débutant<br>HTML/CSS<br>JavaScript</p>
+                        </div>
+                        <div class="lang cpp">
+                            <img src="img/cpp.png" width="100"><p>Débutant<br>C/C++</p>
+                        </div>
+                        <div class="lang python">
+                            <img src="img/python.png" width="100"><p>Débutant<br>Python</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 </body>
