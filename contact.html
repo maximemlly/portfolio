@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - Maxime Maillary</title>
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
     <nav>
@@ -35,22 +36,34 @@
         <p>Si mon profil vous interesse et que vous souhaitez me contacter, je vous invite à remplire ce formulaire de contact.</p>
 
         <form>
-            <label for="prenom">Votre prénom :</label><br>
-            <input type="text" id="prenom" name="prenom"><br>
+            <div class="prenom">
+                <label for="prenom">Votre prénom :</label><br>
+                <input type="text" id="prenom" name="prenom"><br>
+            </div>
 
-            <label for="nom">Votre nom:</label><br>
-            <input type="text" id="nom" name="nom"><br>
+            <div class="nom">
+                <label for="nom">Votre nom:</label><br>
+                <input type="text" id="nom" name="nom"><br>
+            </div>
 
-            <label for="entreprise">Votre entreprise</label><br>
-            <input type="text" id="entreprise" name="entreprise"><br>
+            <div class="entreprise">
+                <label for="entreprise">Votre entreprise</label><br>
+                <input type="text" id="entreprise" name="entreprise"><br>
+            </div>
 
-            <label for="tel">Votre téléphone :</label><br>
-            <input type="text" id="tel" name="entreprise"><br>
+            <div class="tel">
+                <label for="tel">Votre téléphone :</label><br>
+                <input type="text" id="tel" name="entreprise"><br>
+            </div>
 
-            <label for="mail">Votre adresse email :</label><br>
-            <input type="email" id="mail" name="mail"><br>
+            <div class="mail">
+                <label for="mail">Votre adresse email :</label><br>
+                <input type="email" id="mail" name="mail"><br>
+            </div>
 
-            <br><input type="submit"><br>
+            <div class="submit">
+                <br><input type="submit"><br>
+            </div>
         </form>
     </main>
 </body>
