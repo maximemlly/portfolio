@@ -256,7 +256,6 @@ main > p {
 
 @media (max-width: 1024px) {
 
-    /* Cible tous les blocs de projet */
     .projet_1,
     .projet_2,
     .projet_3 {
@@ -265,18 +264,15 @@ main > p {
         height: auto;           /* Hauteur automatique */
     }
 
-    /* Cible toutes les images dans les blocs projet */
     .projet_1 > img,
     .projet_2 > img,
     .projet_3 > img {
         width: 100%; /* L'image prend toute la largeur du bloc */
         height: auto;
-        /* Ajuste les coins arrondis pour qu'ils soient en haut */
         border-radius: 0px 0px 20px 20px;
         margin-bottom : -20px
     }
 
-    /* Le texte prend presque toute la largeur */
     .projet_1 > .text,
     .projet_2 > .text,
     .projet_3 > .text {
@@ -285,12 +281,10 @@ main > p {
         box-sizing: border-box; /* S'assure que le padding ne casse pas la largeur */
     }
 
-    /* Annule l'alignement à droite du projet 2 */
     .projet_2 > .text {
         text-align: left;
     }
 
-    /* Rend les boutons plus flexibles */
     .projet_1 button,
     .projet_2 button,
     .projet_3 button {
@@ -302,7 +296,6 @@ main > p {
 
 @media (max-width: 768px) {
 
-    /* ===== Barre de Navigation (identique à index.html) ===== */
     nav {
         flex-direction: column;
         height: auto;
@@ -329,9 +322,6 @@ main > p {
         width: auto;
     }
 
-    /* ===== Contenu Principal ===== */
-    
-    /* Réduit les polices et centre les titres */
     h1 {
         font-size: 32px;
     }
@@ -352,14 +342,12 @@ main > p {
         text-align: center;
     }
 
-    /* Centre le texte des blocs projet */
     .projet_1 > .text,
     .projet_2 > .text,
     .projet_3 > .text {
         text-align: center;
     }
 
-    /* Réduit les polices des projets */
     .projet_1 h3,
     .projet_2 h3,
     .projet_3 h3 {
@@ -372,8 +360,6 @@ main > p {
         font-size: 16px;
     }
 
-    /* Les boutons sont déjà à 90% de large (grâce à la media query 1024px),
-       mais on peut réduire la police */
     .projet_1 button,
     .projet_2 button,
     .projet_3 button {
