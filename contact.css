@@ -118,13 +118,6 @@ main > p {
     height: 10%;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px
-}
-
-form div {
-    background-color: rgb(209, 209, 209);
-    margin-bottom: 10px;
+.text {
+    font-size: 22px;
 }
