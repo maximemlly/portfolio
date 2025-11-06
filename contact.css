@@ -117,3 +117,14 @@ main > p {
     width: 10%;
     height: 10%;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+form div {
+    background-color: rgb(209, 209, 209);
+    margin-bottom: 10px;
+}
