@@ -1,7 +1,6 @@
 .zoom {
     transition: all 0.3s ease-in-out;
     transform-origin: center;
-    cursor: pointer;
 }
 
 .zoom:hover {
