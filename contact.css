@@ -121,3 +121,104 @@ main > p {
 .text {
     font-size: 22px;
 }
+
+/* Responsive */
+
+@media (max-width: 1024px) {
+
+    /* Fait passer les blocs en colonne */
+    .bloc {
+        flex-direction: column;
+        height: auto; /* Hauteur automatique */
+        gap: 0; /* Retire l'espace entre les blocs empilés */
+    }
+
+    /* Le bloc d'infos prend toute la largeur */
+    .infos {
+        width: 100%;
+        /* Ajuste les coins arrondis pour le haut */
+        border-radius: 20px 20px 0 0;
+        box-sizing: border-box; /* S'assure que le padding est inclus */
+    }
+
+    /* Le bloc de texte prend aussi toute la largeur */
+    .text {
+        width: 100%;
+        padding: 25px; /* Ajoute du padding pour aérer */
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* ===== Barre de Navigation (identique aux autres pages) ===== */
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    nav > p {
+        text-align: center;
+    }
+
+    .liens {
+        position: static;
+        transform: none;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 15px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .social {
+        margin: 15px 0 0 0;
+        justify-content: center;
+        width: auto;
+    }
+
+    /* ===== Contenu Principal ===== */
+    
+    /* Réduit la taille des polices */
+    h1 {
+        font-size: 32px;
+    }
+
+    main > p {
+        font-size: 16px;
+        padding: 0 15px; /* Ajoute un peu d'espace sur les côtés */
+    }
+
+    .bloc h2 {
+        font-size: 28px;
+        text-align: center; /* Centre les titres */
+    }
+
+    /* Améliore la lisibilité des infos de contact */
+    .informations {
+        font-size: 18px; /* Réduit la police */
+        text-align: center; /* Centre le texte */
+    }
+
+    .informations p {
+        /* Empile l'icône, le titre et le contenu */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 25px;
+    }
+
+    /* Donne une taille fixe aux icônes */
+    .informations img {
+        width: 40px; 
+        height: 40px;
+    }
+
+    /* Réduit la police du bloc "À propos" */
+    .text {
+        font-size: 16px;
+        padding: 20px;
+    }
+}

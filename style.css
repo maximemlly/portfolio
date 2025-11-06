@@ -59,7 +59,6 @@ nav > .liens div > a:visited, nav > .liens div > a {
 .liens div:hover {
     background-color: white;
     border-radius: 10px 10px 10px 10px;
-    transform: size(1.1);
 }
 
 .liens div:hover > a {
@@ -237,4 +236,129 @@ h2 {
 
 .zoom {
  transition: transform 0.2s;
+}
+
+/* Responsive */
+
+@media (max-width: 1024px) {
+
+    /* Fait passer la présentation en colonne (image au-dessus du texte) */
+    .presentation {
+        flex-direction: column;
+        height: auto; /* Hauteur automatique pour s'adapter au contenu */
+        align-items: center;
+    }
+
+    /* L'image prend toute la largeur et on ajuste les coins arrondis */
+    .presentation > img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px 20px 0 0; /* Coins arrondis en haut */
+    }
+
+    /* Le texte de présentation prend plus de largeur */
+    .presentation2,
+    .intro {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .intro {
+         height: auto; /* Hauteur automatique */
+    }
+    
+    /* Empile les sections "À propos" et "Compétences" */
+    .me {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Les sections prennent presque toute la largeur */
+    .aboutMe,
+    .competences {
+        width: 95%;
+        height: auto; /* Hauteur automatique */
+        margin: 10px auto;
+    }
+
+    /* Permet aux "cartes" de langues de passer à la ligne */
+    .languages {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Réduit légèrement la taille des titres */
+    h1 {
+        font-size: 40px;
+    }
+
+    h2, .intro > h2, .aboutMe > h2, .competences > h2 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Empile les éléments de la barre de navigation */
+    nav {
+        flex-direction: column;
+        height: auto; /* Hauteur automatique */
+        padding: 15px;
+    }
+
+    /* Centre le titre */
+    nav > p {
+        text-align: center;
+    }
+
+    /* Réorganise les liens en colonne */
+    .liens {
+        position: static; /* Retire le positionnement absolu */
+        transform: none;  /* Annule la transformation */
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 15px;
+        width: 100%;
+        align-items: center;
+    }
+
+    /* Centre les icônes sociales */
+    .social {
+        margin: 15px 0 0 0; /* Réinitialise la marge */
+        justify-content: center;
+        width: auto;
+    }
+
+    /* Réduit la taille des polices pour les petits écrans */
+    h1 {
+        font-size: 32px;
+        text-align: center; /* Centre le titre principal */
+    }
+
+    h2, .intro > h2, .aboutMe > h2, .competences > h2 {
+        font-size: 28px;
+        text-align: center; /* Centre les sous-titres */
+    }
+
+    .intro > p, .aboutMe > p, .competences > p {
+        font-size: 16px; /* Assure une bonne lisibilité */
+    }
+
+    /* Empile les cartes de langues en colonne */
+    .languages {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Les cartes de langues prennent plus de largeur */
+    .lang {
+        width: 80%;
+        height: auto; /* Hauteur auto pour s'adapter */
+        padding-bottom: 15px;
+    }
+
+    .lang > h3 {
+        font-size: 50px; /* Réduit un peu l'emoji */
+    }
 }
