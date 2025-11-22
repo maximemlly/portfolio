@@ -4,36 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mes projets - Maxime Maillary</title>
-    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
-        <p>Portfolio de Maxime Maillary</p>
+    <p>Portfolio de Maxime Maillary</p>
 
-        <div class="liens">
-            <div class="accueil">
-                <a href="index.html">Accueil</a>
-            </div>
-            <div class ="projets">
-                <a href="projects.html">Projets</a>
-            </div>
-            <div class="contact">
-            <a href="contact.html">Contact</a>
-            </div>
+    <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="liens">
+        <div class="accueil"><a href="index.html">Accueil</a></div>
+        <div class="projets"><a href="projects.html">Projets</a></div>
+        <div class="contact"><a href="contact.html">Contact</a></div>
+    </div>
+    
+    <div class="social">
+        <div class="linkedin">
+            <a href="https://www.linkedin.com/in/maxime-maillary/" target="_blank"><img src="img/linkedin.png" width="30" height="30" alt="LinkedIn"></a>
         </div>
-        <div class="social">
-            <div class="linkedin">
-                <a href="https://www.linkedin.com/in/maxime-maillary/" target="_blank"><img src="img/linkedin.png" width="30" height="30" alt="LinkedIn"></a>
-            </div>
-            <div class="github">
-                <a href="https://www.github.com/maximemlly" target="_blank"><img src="img/github.png" width="30" height="30" alt="GitHub"></a>
-            </div>
+        <div class="github">
+            <a href="https://github.com/maximemlly" target="_blank"><img src="img/github.png" width="30" height="30" alt="GitHub"></a>
         </div>
-    </nav>
+    </div>
+</nav>
 
     <main>
 
@@ -80,5 +85,13 @@
             </div>
         </section>
     </main>
+<script>
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('nav');
+
+    burger.addEventListener('click', () => {
+        nav.classList.toggle('active');
+    });
+</script>
 </body>
 </html>
