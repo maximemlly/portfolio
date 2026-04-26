@@ -5,4 +5,5 @@ export interface Project {
   stack: string[];
   githubRepo: string;
   liveUrl?: string;
+  thumbnail?: string;
 }

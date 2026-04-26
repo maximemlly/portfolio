@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Outfit } from "next/font/google";
 import Navbar from "@/components/layout/Navbar";
 import "./globals.css";
 
-const geist = Geist({ subsets: ["latin"] });
+const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portfolio de Maxime Maillary",
-  description: "Portfolio de projets développeur fullstack",
+  title: "Maxime Maillary — Développeur Fullstack",
+  description:
+    "Portfolio de Maxime Maillary, développeur fullstack Node.js, Express, MySQL et Next.js.",
 };
 
 export default function RootLayout({
@@ -17,8 +18,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+        />
+      </head>
       <body
-        className={`${geist.className} bg-gray-950 text-white min-h-screen`}
+        className={`${outfit.className} bg-background text-text-primary min-h-screen`}
       >
         <Navbar />
         <main className="max-w-5xl mx-auto px-6 py-12">{children}</main>
