@@ -21,7 +21,7 @@ export const projects: Project[] = [
   {
     id: "pokemon-sd-javafx",
     title: "Pokemon Showdown! JavaFX Remake",
-    description: "Recréation du jeu Pokémon Shodown! en JavaFX.",
+    description: "Recréation du jeu Pokémon Showdown! en JavaFX.",
     longDescription:
       "Pokémon Showdow est un simulateur de combat de Pokémon, complet et entièrement jouable en ligne. Notre objectif était de récréer l'entièreté des mécanique du jeu en utilisant uniquement Java et JavaFX comme stack.",
     stack: ["Java", "JavaFX"],
@@ -38,9 +38,9 @@ export const projects: Project[] = [
     id: "pablos-journey",
     title: "Pablo's Journey",
     description:
-      "Pablo's Journey est un RPG indépendant développé à l'occasion de la Game Jam Cod'Bar 2026",
+      "Pablo's Journey est un RPG indépendant développé à l'occasion de la Game Jam Cod'Bar 2026.",
     longDescription:
-      "À l'occasion d'une game jam organisée par le BDE Cod'Bar, nous avons eu deux semaines pour créer un jeu dont le thème était RPG. Nous avons créé Pablo's Journey, un jeu dans lequel on incarne Pablo, un jeu garçon qui tente de récuperer ses souvenirs, en nous inspirant grandement du jeu Undertale",
+      "À l'occasion d'une game jam organisée par le BDE Cod'Bar, nous avons eu deux semaines pour créer un jeu dont le thème était RPG. Nous avons créé Pablo's Journey, un jeu dans lequel on incarne Pablo, un jeu garçon qui tente de récuperer ses souvenirs, en nous inspirant grandement du jeu Undertale.",
     stack: ["Gamemaker Language (GML)"],
     liveUrl: "https://maximemlly.itch.io/le-voyage-de-pablo",
     thumbnail: "/projects/thumbnails/pablos_journey.png",
@@ -102,6 +102,43 @@ export const projects: Project[] = [
       "Projet réalisé en groupe de 5",
     ],
     status: "Archivé",
+  },
+  {
+    id: "wow",
+    title: "Who Owes What?",
+    description:
+      "Projet final de cours de PHP, création d'un logiciel type Fair Count.",
+    longDescription:
+      "Expenses. But less exhausting.\nWho Owes What? est une application vous permettant de gérer l'argent que vous vous devez entre ami. Plus besoin d'excuse car les bons comptes font les bons amis",
+    stack: ["PHP"],
+    thumbnail: "/projects/thumbnails/wow.png",
+    screenshots: [
+      "/projects/screenshots/wow/pic1.png",
+      "/projects/screenshots/wow/pic2.png",
+    ],
+    highlights: [
+      "Architecture MVC",
+      "Base de données hebergé en ligne",
+      "Utilisation simple et intuitive",
+    ],
+    status: "Terminé",
+  },
+  {
+    id: "sokoban",
+    title: "Sokoban en C",
+    description:
+      "Recréation du jeu du Sokoban en langage C, jouable entièrement dans le terminal.",
+    longDescription:
+      "Le Sokoban est un puzzle japonais où le joueur incarne un entrepôtier devant pousser des caisses sur des cases cibles dans un entrepôt. La difficulté vient des espaces confinés et de l'irréversibilité des mouvements, obligeant à planifier chaque action avec soin.\nL'objectif était de recréer ce jeu entièrement en C et jouable dans un terminal Ubuntu",
+    stack: ["C", "Docker", "Linux/Ubuntu"],
+    githubRepo: "devilishlyney/sokoban",
+    thumbnail: "/projects/thumbnails/sokoban.gif",
+    highlights: [
+      "Projet réalisé entièrement en C",
+      "Jouable dans le terminal",
+      "Utilise le terminal Ubuntu avec Docker",
+    ],
+    status: "Terminé",
   },
 ];
 
