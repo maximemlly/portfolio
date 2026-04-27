@@ -24,7 +24,7 @@ export const projects: Project[] = [
     description: "Recréation du jeu Pokémon Showdown! en JavaFX.",
     longDescription:
       "Pokémon Showdow est un simulateur de combat de Pokémon, complet et entièrement jouable en ligne. Notre objectif était de récréer l'entièreté des mécanique du jeu en utilisant uniquement Java et JavaFX comme stack.",
-    stack: ["Java", "JavaFX"],
+    stack: ["Java", "JavaFX", "MySQL"],
     githubRepo: "maximemlly/pokemon-sd-javafx",
     thumbnail: "/projects/thumbnails/pokemon_sd_javafx.png",
     highlights: [
@@ -110,7 +110,7 @@ export const projects: Project[] = [
       "Projet final de cours de PHP, création d'un logiciel type Fair Count.",
     longDescription:
       "Expenses. But less exhausting.\nWho Owes What? est une application vous permettant de gérer l'argent que vous vous devez entre ami. Plus besoin d'excuse car les bons comptes font les bons amis",
-    stack: ["PHP"],
+    stack: ["PHP", "SQL"],
     thumbnail: "/projects/thumbnails/wow.png",
     screenshots: [
       "/projects/screenshots/wow/pic1.png",
