@@ -69,6 +69,15 @@ const timelineItems = [
     description:
       "Conception et développement du portfolio personnel avec Next.js, TypeScript et Tailwind CSS.",
   },
+  /* TEMPLATE
+  {
+    type: "experience / formation / projet",
+    date: "Janv. 0000",
+    title: "Poste",
+    subtitle: "Nom de l'entreprise",
+    description: "",
+  },
+  */
   {
     type: "formation",
     date: "2028",
@@ -94,12 +103,18 @@ export default function Timeline() {
               className={`relative z-10 mt-1 w-6 h-6 rounded-full border-2 flex items-center justify-center shrink-0 ${
                 item.type === "formation"
                   ? "bg-accent/20 border-accent"
-                  : "bg-white/5 border-white/20"
+                  : item.type === "experience"
+                    ? "bg-green-500/20 border-green-500"
+                    : "bg-white/5 border-white/20"
               }`}
             >
               <div
                 className={`w-2 h-2 rounded-full ${
-                  item.type === "formation" ? "bg-accent" : "bg-white/40"
+                  item.type === "formation"
+                    ? "bg-accent"
+                    : item.type === "experience"
+                      ? "bg-green-500"
+                      : "bg-white/40"
                 }`}
               />
             </div>
@@ -117,10 +132,16 @@ export default function Timeline() {
                   className={`text-xs px-2 py-0.5 rounded-full border ${
                     item.type === "formation"
                       ? "bg-accent/10 text-accent-soft border-accent/20"
-                      : "bg-white/5 text-text-muted border-white/10"
+                      : item.type === "experience"
+                        ? "bg-green-500/10 text-green-400 border-green-500/20"
+                        : "bg-white/5 text-text-muted border-white/10"
                   }`}
                 >
-                  {item.type === "formation" ? "Formation" : "Projet"}
+                  {item.type === "formation"
+                    ? "Formation"
+                    : item.type === "experience"
+                      ? "Expérience"
+                      : "Projet"}
                 </span>
               </div>
               <span className="text-text-muted text-xs">{item.subtitle}</span>
