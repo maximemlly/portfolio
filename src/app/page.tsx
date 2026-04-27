@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ContactForm from "@/components/ui/ContactForm";
 
 export default function HomePage() {
   return (
@@ -61,6 +62,7 @@ export default function HomePage() {
           </svg>
         </a>
       </div>
+      <ContactForm />
     </section>
   );
 }

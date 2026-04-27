@@ -1,3 +1,5 @@
+import Timeline from "@/components/ui/Timeline";
+
 const stack = [
   {
     category: "Langages",
@@ -94,6 +96,7 @@ export default function AboutPage() {
           </div>
         ))}
       </div>
+      <Timeline />
     </section>
   );
 }
