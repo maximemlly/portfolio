@@ -3,14 +3,19 @@
 @theme {
   --color-background: #0b0d12;
   --color-surface: #0f1117;
-
   --color-accent: #ef4444;
   --color-accent-light: #f87171;
   --color-accent-soft: #fca5a5;
-
   --color-text-primary: #f1f5f9;
   --color-text-secondary: #94a3b8;
   --color-text-muted: #475569;
+  --font-sans: 'Outfit', sans-serif;
+}
 
-  --font-sans: "Outfit", sans-serif;
+.light {
+  --color-background: #ffffff;
+  --color-surface: #f8fafc;
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #475569;
+  --color-text-muted: #94a3b8;
 }

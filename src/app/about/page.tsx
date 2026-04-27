@@ -57,19 +57,16 @@ export default function AboutPage() {
         <p className="text-text-secondary leading-relaxed">
           Je suis{" "}
           <span className="text-text-primary font-medium">Maxime Maillary</span>
-          , développeur fullstack en formation à{" "}
-          <span className="text-text-primary font-medium">Coda School</span>. Je
-          construis des applications web orientées backend avec Node.js, Express
-          et MySQL, tout en montant en compétences sur le frontend avec Next.js
-          et TypeScript.
+          , étudiant en 1ère année de Bachelor Développeur Fullstack à{" "}
+          <span className="text-text-primary font-medium">Coda</span>. Curieux
+          et polyvalent, je touche à tout — du backend au frontend, en passant
+          par la conception de bases de données et le développement
+          d&apos;applications.
         </p>
         <p className="text-text-secondary leading-relaxed">
-          Mon projet le plus récent est{" "}
-          <span className="text-text-primary font-medium">
-            Hutchinson Connect
-          </span>
-          , un annuaire intranet intelligent développé pour le site Hutchinson
-          de Fleury-les-Aubrais.
+          Mes projets, qu&apos;ils soient personnels ou scolaires, sont pour moi
+          des terrains d&apos;expérimentation où j&apos;apprends en construisant
+          des choses concrètes.
         </p>
       </div>
 
