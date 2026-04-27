@@ -19,7 +19,8 @@ export default function Navbar() {
           href="/"
           className="text-text-primary font-bold text-base tracking-tight"
         >
-          maxime<span className="text-accent">.</span>dev
+          maxime<span className="text-accent">-</span>maillary
+          <span className="text-accent">.</span>fr
         </Link>
 
         <div className="flex items-center gap-4">
