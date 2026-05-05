@@ -5,7 +5,7 @@ const timelineItems = [
     title: "Bachelor Développeur Fullstack",
     subtitle: "École Coda",
     description:
-      "Début de la formation en développement fullstack. Apprentissage des bases du web, Node.js, Express, MySQL et des bonnes pratiques de développement.",
+      "Début de la formation en développement fullstack. Apprentissage des langages de bases et des bonnes pratiques de développement.",
   },
   {
     type: "projet",
