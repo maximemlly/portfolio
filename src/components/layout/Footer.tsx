@@ -43,7 +43,7 @@ export default function Footer() {
                 contact@maxime-maillary.fr
               </a>
               <a
-                href="tel:+33600000000"
+                href="tel:+33623017880"
                 className="flex items-center gap-3 text-text-secondary hover:text-accent-soft text-sm transition-colors group"
               >
                 <span className="w-8 h-8 rounded-lg bg-white/[0.03] border border-white/7 flex items-center justify-center group-hover:border-accent/30 transition-colors">
