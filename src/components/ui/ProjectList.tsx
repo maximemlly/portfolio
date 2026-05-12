@@ -243,7 +243,7 @@ export default function ProjectList({ projects }: Props) {
         </div>
       ) : (
         <div className="grid grid-cols-1 gap-6">
-          {filtered.map((project) => (
+          {filtered.map((project, index) => (
             <Link href={`/projects/${project.id}`} key={project.id}>
               <div className="group border border-white/7 hover:border-accent/30 bg-white/[0.02] hover:bg-accent/[0.03] rounded-2xl overflow-hidden transition-all duration-200">
                 {project.thumbnail && (
@@ -252,6 +252,7 @@ export default function ProjectList({ projects }: Props) {
                       src={project.thumbnail}
                       alt={project.title}
                       fill
+                      priority={index === 0}
                       className="object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-200"
                     />
                   </div>

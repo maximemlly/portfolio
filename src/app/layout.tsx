@@ -7,6 +7,7 @@ import "./globals.css";
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://maxime-maillary.fr"),
   title: "Portfolio de Maxime Maillary",
   description:
     "Portfolio de Maxime Maillary, étudiant en première année de Bachelor Développeur Fullstack à Coda.",

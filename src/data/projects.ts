@@ -2,6 +2,27 @@ import { Project } from "@/types";
 
 export const projects: Project[] = [
   {
+    id: "buzzr",
+    title: "Buzzr",
+    description:
+      "Projet de fin de première année. Plateforme de quiz Kahoot-like.",
+    longDescription:
+      "Buzzr est une plateforme où les utilisateurs peuvent créer leurs propres quiz et en inviter d'autres pour participer à ces quiz. Il s'agit de mon projet de fin de première année de Bachelor Développeur Fullstack. Inspiré de Kahoot",
+    stack: ["JavaScript", "NodeJS", "Express", "Socket.io", "Vite", "MySQL"],
+    // githubRepo: "",
+    // liveUrl: "",
+    // thumbnail: "/projects/thumbnails/...",
+    // screenshots: ["", "", ""],
+    highlights: [
+      "Système d'inscription/connexion",
+      "Interactions en temps réel avec Socket.io",
+      "Dashboard avec stats de l'utilisateur : quiz créés, parties jouées, scores moyens, quiz les plus joués",
+      "Architecture MVC",
+      "Gestion des données type CRUD",
+    ],
+    status: "En cours",
+  },
+  {
     id: "hutchinson-connect",
     title: "Hutchinson Connect",
     description:
