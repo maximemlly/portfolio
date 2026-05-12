@@ -69,6 +69,13 @@ const timelineItems = [
     description:
       "Conception et développement du portfolio personnel avec Next.js, TypeScript et Tailwind CSS.",
   },
+  {
+    type: "projet",
+    date: "Mai - Juin 2026",
+    title: "Buzzr",
+    subtitle: "Projet de fin d'année",
+    description: "Buzzr est une plateforme de quiz en ligne Kahoot-like.",
+  },
   /* TEMPLATE
   {
     type: "experience / formation / projet",
