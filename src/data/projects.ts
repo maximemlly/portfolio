@@ -11,7 +11,7 @@ export const projects: Project[] = [
     stack: ["JavaScript", "NodeJS", "Express", "Socket.io", "Vite", "MySQL"],
     // githubRepo: "",
     // liveUrl: "",
-    // thumbnail: "/projects/thumbnails/...",
+    thumbnail: "/projects/thumbnails/buzzr.png",
     // screenshots: ["", "", ""],
     highlights: [
       "Système d'inscription/connexion",
