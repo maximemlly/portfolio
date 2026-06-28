@@ -9,10 +9,14 @@ export const projects: Project[] = [
     longDescription:
       "Buzzr est une plateforme où les utilisateurs peuvent créer leurs propres quiz et en inviter d'autres pour participer à ces quiz. Il s'agit de mon projet de fin de première année de Bachelor Développeur Fullstack. Inspiré de Kahoot",
     stack: ["JavaScript", "NodeJS", "Express", "Socket.io", "Vite", "MySQL"],
-    // githubRepo: "",
+    githubRepo: "maximemlly/buzzr",
     // liveUrl: "",
     thumbnail: "/projects/thumbnails/buzzr.png",
-    // screenshots: ["", "", ""],
+    screenshots: [
+      "/projects/screenshots/buzzr/pic1.png",
+      "/projects/screenshots/buzzr/pic2.png",
+      "/projects/screenshots/buzzr/pic3.png",
+    ],
     highlights: [
       "Système d'inscription/connexion",
       "Interactions en temps réel avec Socket.io",
