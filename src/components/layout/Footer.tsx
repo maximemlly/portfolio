@@ -21,7 +21,7 @@ export default function Footer() {
             </h3>
             <div className="flex flex-col gap-3">
               <a
-                href="mailto:contact@maxime-maillary.fr"
+                href="mailto:maxime.maillary@coda-student.school"
                 className="flex items-center gap-3 text-text-secondary hover:text-accent-soft text-sm transition-colors group"
               >
                 <span className="w-8 h-8 rounded-lg bg-white/[0.03] border border-white/7 flex items-center justify-center group-hover:border-accent/30 transition-colors">
