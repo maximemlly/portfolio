@@ -30,8 +30,6 @@ const stack = [
       { name: "Linux", icon: "devicon-linux-plain" },
       { name: "Figma", icon: "devicon-figma-plain colored" },
       { name: "WordPress", icon: "devicon-wordpress-plain colored" },
-      { name: "Cursor", icon: "devicon-cursor-plain colored" },
-      { name: "Claude Code", icon: "devicon-claude-plain colored" },
     ],
   },
   {
