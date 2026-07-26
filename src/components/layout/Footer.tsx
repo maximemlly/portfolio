@@ -21,7 +21,7 @@ export default function Footer() {
             </h3>
             <div className="flex flex-col gap-3">
               <a
-                href="mailto:maxime.maillary@coda-student.school"
+                href="mailto:contact@maxime-maillary.fr"
                 className="flex items-center gap-3 text-text-secondary hover:text-accent-soft text-sm transition-colors group"
               >
                 <span className="w-8 h-8 rounded-lg bg-white/[0.03] border border-white/7 flex items-center justify-center group-hover:border-accent/30 transition-colors">
@@ -40,7 +40,7 @@ export default function Footer() {
                     <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
                   </svg>
                 </span>
-                maxime.maillary@coda-student.school
+                contact@maxime-maillary.fr
               </a>
               <a
                 href="tel:+33623017880"
